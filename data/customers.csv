@@ -1,0 +1,6 @@
+customer_id,first_name,last_name,city,country,email,registration_date
+101,Max,Mueller,Braunschweig,Germany,max.mueller@example.com,2022-07-16
+102,Anna,Schmidt,Hannover,Germany,anna.schmidt@example.com,2023-07-23
+103,Andreas,Weber,,Germany,andreas.weber@example.com,2023-07-24
+104,Lars,Fischer,Vechelde,Germany,lars.fischer@example.com,2023-07-01
+102,David,Becker,Berlin,Germany,david.becker@example.com,2023-07-14
