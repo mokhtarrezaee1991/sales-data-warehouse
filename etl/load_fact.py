@@ -160,8 +160,11 @@ fact_sales = sales[
 for column in key_columns:
     fact_sales[column] = fact_sales[column].astype(int)
 
-print("FACT SALES DATA:")
-print(fact_sales.to_string(index=False))
+print("\nFACT SALES PREVIEW:")
+print(fact_sales.head(5).to_string(index=False))
+
+print(f"\nTotal sales rows processed: {len(fact_sales)}")
+print(f"Total revenue: {fact_sales['total_amount'].sum():,.2f}")
 
 
 # ==========================================
